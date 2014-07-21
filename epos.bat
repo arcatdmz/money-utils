@@ -3,7 +3,7 @@ REM 次の行でPDFファイルを置いたフォルダを指定する
 set EPOS_PDF_DIR=".\example"
 
 REM 次の行で読み取る年を指定する
-set EPOS_YEAR=2013
+set EPOS_YEAR=2014
 
 REM 次の行で出力されるCSVデータを保存するファイルを指定する
 set EPOS_OUT=".\epos%EPOS_YEAR%.csv"
