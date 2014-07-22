@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class DCCardCSVParser {
+public class DCCardCSVParser implements TransactionFileParser {
 	private static Pattern datePattern = Pattern.compile("([0-9]{4})\\/([0-9]{1,2})\\/([0-9]{1,2})");
 	private static String startMark = "利用日";
 	private List<TransactionEntry> entries = new LinkedList<TransactionEntry>();
